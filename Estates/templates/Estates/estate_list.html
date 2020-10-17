@@ -8,7 +8,7 @@
             <div class="estates">
                 {% for estate in estates %}
                 <div class="estate">
-                    <img src="{{ estate.main_photo }}" height="200px" width="400px" class="estate-img"/>
+                    <img src="{{ estate.main_photo.url }}" height="200px" width="400px" class="estate-img"/>
                     <h2>{{ estate.title }}</h2>
                     <h3>{{ estate.description }}</h3>
                 </div>
