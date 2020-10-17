@@ -1,0 +1,32 @@
+{% load static %}
+<script>
+        $(document).ready(function () {
+            $('.modal').modal();
+            $('.dropdown-trigger').dropdown({
+                hover: true,
+                constrainWidth: false,
+            });
+        });
+</script>
+
+<nav>
+        <ul id="dropdown" class="dropdown-content blue-grey lighten-1">
+            <li><a href="any.html">Wynajem</a></li>
+            <li><a href="any.html">Sprzedaż</a></li>
+            <li><a href="any.html">Oferty deweloperów</a></li>
+        </ul>
+
+        <div class="nav-wrapper blue-grey lighten-1">
+          <a href="#" class="brand-logo"><img src="media/logo.png" height="64"></a>
+          <div class="navbar-list">
+            <ul class="right hide-on-down">
+                <li><a href="any.html">Mieszkania</a></li>
+                <li><a href="any.html">Domy</a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown">Inwestycje</a></li>
+                <li><a href="any.html">Statystyki</a></li>
+                <li><a href="any.html">Logowanie</a></li>
+                <li><a href="any.html">Rejestracja</a></li>
+            </ul>
+          </div>
+        </div>
+</nav>

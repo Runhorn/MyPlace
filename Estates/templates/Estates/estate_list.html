@@ -1,0 +1,20 @@
+{% extends 'home.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+        <div class="col s12">
+            <div class="estates">
+                {% for estate in estates %}
+                <div class="estate">
+                    <img src="{{ estate.main_photo }}" height="200px" width="400px" class="estate-img"/>
+                    <h2>{{ estate.title }}</h2>
+                    <h3>{{ estate.description }}</h3>
+                </div>
+                <span>$35.00<span>
+                {% endfor %}
+            </div>
+        </div>
+</div>
+{% endblock %}

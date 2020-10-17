@@ -1,0 +1,45 @@
+{% load static %}
+
+<script>
+        $(document).ready(function () {
+            $('.slider').slider({
+                full_width: true,
+                indicators: false,
+                interval: 10000
+            });
+        });
+
+</script>
+
+<div class="slider">
+    <ul class="slides" style="z-index:1;">
+        <li>
+            <img src="https://lorempixel.com/1343/400/city/1"> <!-- random image -->
+            <div class="caption center-align">
+                <h3>This is our big Tagline!</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+        </li>
+        <li>
+            <img src="https://lorempixel.com/1343/400/city/2"> <!-- random image -->
+            <div class="caption left-align">
+                <h3>Left Aligned Caption</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+        </li>
+        <li>
+            <img src="https://lorempixel.com/1343/400/city/3"> <!-- random image -->
+            <div class="caption right-align">
+                <h3>Right Aligned Caption</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+        </li>
+        <li>
+            <img src="https://lorempixel.com/1343/400/city/4"> <!-- random image -->
+            <div class="caption center-align">
+                <h3>This is our big Tagline!</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+        </li>
+    </ul>
+</div>
