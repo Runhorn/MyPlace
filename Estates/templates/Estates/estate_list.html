@@ -3,6 +3,13 @@
 {% load static %}
 
 {% block content %}
+<div class="before-listing">
+    <div class="container">
+        <p class="alignleft"> Liczba ofert: <strong>{{ estates.count }}</strong></p>
+        <p class="alignright"> Sortuj po: </p>
+        <div style="clear: both;"></div>
+    </div>
+</div>
 <div class="listing">
     <div class="container">
             {% for estate in estates %}
@@ -13,8 +20,9 @@
                         <div class="subtitle">{{ estate.get_type_of_building_display }} na sprzedaż {{ estate.street }}, {{ estate.city }}</div>
                         <br><br>
                         <div class="info">
-                            <p class="alignleft">{{ estate.number_of_rooms }} pokoje {{ estate.surface }} m2</p>
+                            <p class="alignleft">{{ estate.number_of_rooms }} pokoje {{ estate.surface }} m<sup>2</sup></p>
                             <p class="alignright">{{ estate.price }} zł</p>
+                            <div style="clear: both;"></div>
                         </div>
                     </div>
                 </div>

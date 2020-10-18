@@ -3,9 +3,5 @@
 {% block title %}{{ | search_bar }}{% endblock %}
 
 {% block content %}
-<form class="site-form" action="{% url 'estates:list' %}" method="get">
-    {% csrf_token %}
-    {{ form }}
-    <input type = "submit" value="login">
-</form>
+
 {% endblock %}

@@ -1,24 +1,6 @@
-div.estates {
-    height: 200px;
-    width: 800px;
-    margin-bottom: 30px;
-}
-
-div.card-action.red.accent-3.white-text {
-    height: 25%;
-}
-
-a.btn-floating.halfway-fab.waves-effect.waves-light.red.accent-3 {
-    position: absolute;
-    right: 24px;
-    bottom: -35px;
-}
-
 .page-footer{
-    position: fixed;
-    bottom: 0 px;
+    position: absolute;
     width: 100%;
-    min-height: 75vh;
 }
 
 div.grid-container{
