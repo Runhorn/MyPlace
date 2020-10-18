@@ -3,18 +3,22 @@
 {% load static %}
 
 {% block content %}
-<div class="container">
-        <div class="col s12">
-            <div class="estates">
-                {% for estate in estates %}
-                <div class="estate">
-                    <img src="{{ estate.main_photo.url }}" height="200px" width="400px" class="estate-img"/>
-                    <h2>{{ estate.title }}</h2>
-                    <h3>{{ estate.description }}</h3>
+<div class="listing">
+    <div class="container">
+            {% for estate in estates %}
+                <div class="grid-container">
+                    <div class="image"><img class="estate-img" height="200px" src="{{ estate.main_photo.url }}" width="400px"/></div>
+                    <div class="estate-text">
+                        <div class="title">{{ estate.title }}</div>
+                        <div class="subtitle">{{ estate.get_type_of_building_display }} na sprzedaż {{ estate.street }}, {{ estate.city }}</div>
+                        <br><br>
+                        <div class="info">
+                            <p class="alignleft">{{ estate.number_of_rooms }} pokoje {{ estate.surface }} m2</p>
+                            <p class="alignright">{{ estate.price }} zł</p>
+                        </div>
+                    </div>
                 </div>
-                <span>$35.00<span>
-                {% endfor %}
-            </div>
-        </div>
+            {% endfor %}
+    </div>
 </div>
 {% endblock %}

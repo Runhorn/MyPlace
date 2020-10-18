@@ -4,14 +4,12 @@ from Owner.models import Owner
 from django_resized import ResizedImageField
 
 class Estate(models.Model):
-    Types_of_building = [(1, ('BLOK')),
-                         (2, ('APARTAMENTOWIEC')),
-                         (3, ('WIEŻOWIEC')),
-                         (4, ('SZEREGÓWKA')),
-                         (5, ('KAMIENICA')),
-                         (6, ('DOM WOLNOSTOJĄCY')),
-                         (7, ('LOFT')),
-                         (8, ('INNE'))]
+    Types_of_building = [(1, ('Mieszkanie')),
+                         (2, ('Apartament')),
+                         (3, ('Szeregówka')),
+                         (4, ('Dom')),
+                         (5, ('Loft')),
+                         (6, ('Inne'))]
 
     Materials_of_building = [(1, ('CEGŁA')),
                              (2, ('DREWNO')),

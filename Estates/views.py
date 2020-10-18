@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from .models import Estate
-from Owner.models import Owner
 # Create your views here.
 
 
