@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb26640d-53ce-4fef-b61a-00a77d6c33c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Estates/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/stockphoto_slider1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/stockphoto_slider2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/stockphoto_slider3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estates/templates/Estates/estate_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Owner/templates/Owner/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Owner/templates/Owner/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Owner/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estates/templates/Estates/estate_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Estates/templates/Estates/estate_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estates/templates/Estates/search_bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Estates/templates/Estates/search_bar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/mystyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estates/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estates/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estates/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estates/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estates/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estates/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyPlace/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyPlace/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Owner/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Owner/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/slider.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>

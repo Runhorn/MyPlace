@@ -23,7 +23,9 @@ from Estates import views as estate_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', estate_views.estate_list, name="home")
+    url(r'^$', estate_views.estate_list, name="home"),
+    url(r'^accounts/', include('Owner.urls')),
+    url(r'^estates/', include('Estates.urls')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
